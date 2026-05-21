@@ -6,6 +6,14 @@ Current implementation status:
 - Next.js + TypeScript app foundation
 - Landing page (`/`)
 - Phone OTP login flow (`/login`): send + verify OTP
+- Role/language onboarding (`/onboarding`) persisted to Supabase `users` table
+- Authenticated server-side role checks for:
+  - `/dashboard` (student)
+  - `/expert/onboarding` (expert)
+- Student dashboard placeholder (`/dashboard`)
+- Expert onboarding placeholder (`/expert/onboarding`)
+- Supabase browser + server client utilities
+- Onboarding API route with auth and request validation
 - Role/language onboarding (`/onboarding`)
 - Student dashboard placeholder (`/dashboard`)
 - Expert onboarding placeholder (`/expert/onboarding`)
